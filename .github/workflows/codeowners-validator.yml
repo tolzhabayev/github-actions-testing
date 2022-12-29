@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  sanity:
+  codeowners-validator:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository, which is validated in the next step
